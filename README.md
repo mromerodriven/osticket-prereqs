@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Azure Subscription/Resource Group/VM
-- Item 2
+- RDP
 - Item 3
 - Item 4
 - Item 5
@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZASycCR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
