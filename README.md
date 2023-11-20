@@ -117,33 +117,44 @@ From your start menu, search for "IIS". Right click it and select "Run as admini
 <p>
 <img src="https://i.imgur.com/YFHpiS1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p><br>
--Download [osTicket zip](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) <br>
--Drag "Upload" folder from zip file to "C:\inetpub\wwwroot"
+<p>
+-Download [osTicket zip](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)<br>
+-Drag "Upload" folder from zip file to "C:\inetpub\wwwroot" <br>
+-Rename that upload folder to osTicket
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FFgeiQU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go back to IIS. On the left side, navigatge to Sites>Default Web Site>osTicket. Then on the right click on "Browse *.80 (http)".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MXMccKK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When installed correctly, your screen should look like this. <br><br>
+Go back to IIS click on PHP Manager>Enable or diable an extension <br>
+Enable the follow: <br>
+-Enable: php_imap.dll<br>
+-Enable: php_intl.dll<br>
+-Enable: php_opcache.dll<br>
+Next, Rename: ost-config.php From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/jpms4hA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br>From Properties>Security>Adavanced Disable inheritance -> Remove All then New Permissions -> Everyone -> All<br>
+</p>
+<p>
+<img src="https://i.imgur.com/7gf1rkj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
