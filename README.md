@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - RDP
 - PHP Manager for IIS
 - osTicket
-- Item 5
+- SQL Database
 
 <h2>Installation Steps</h2>
 
