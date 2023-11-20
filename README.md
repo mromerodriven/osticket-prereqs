@@ -83,7 +83,7 @@ Your changes will start installing and applying your IIS web server.
 You know you applied the correct changes when your IIS site looks like this.<br>
 Open a browser in your VM and go to "127.0.0.1" to verify this is accurate.
 <br><br>
--Download and install PHP Manager on your VM.
+-Download and install [PHP Manager](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view) on your VM.
 </p>
 <br />
 
