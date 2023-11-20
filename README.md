@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Azure Subscription/Resource Group/VM
 - RDP
-- Item 3
+- PHP Manager for IIS
 - Item 4
 - Item 5
 
@@ -82,6 +82,8 @@ Your changes will start installing and applying your IIS web server.
 <p>
 You know you applied the correct changes when your IIS site looks like this.<br>
 Open a browser in your VM and go to "127.0.0.1" to verify this is accurate.
+<br><br>
+-Download and install PHP Manager on your VM.
 </p>
 <br />
 
