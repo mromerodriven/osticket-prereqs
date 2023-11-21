@@ -194,17 +194,26 @@ Go back to the osTicket browser settings and finish inputting the info for the D
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cEqp7hI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click install now and...CONGRATULATIONS! You've successfully installed osTicket on the server.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+A couple of clean up items: Navigate to C:\inetpub\wwwroot\osTicket and delete the "Setup" folder at this destination.<br>
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php<br>
+-Properties>Security>Advanced>Select the "Everyone" user>Click Edit>Only Select "Read & execute" and "Read" and click OK>Apply>OK>OK
+
 </p>
 <br />
+<p>
+Check your work by logging in as admin [here](http://localhost/osTicket/scp/login.php)
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/8eswxl6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
